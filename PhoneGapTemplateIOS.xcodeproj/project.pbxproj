@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702B009D16208D1000394A25 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 702B009C16208D1000394A25 /* www */; };
 		7099BDA3162086F6008C1203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7099BDA2162086F6008C1203 /* Foundation.framework */; };
 		7099BDA5162086F6008C1203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7099BDA4162086F6008C1203 /* UIKit.framework */; };
 		7099BDA7162086F6008C1203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7099BDA6162086F6008C1203 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702B009C16208D1000394A25 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		7099BD9E162086F6008C1203 /* PhoneGapTemplateIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneGapTemplateIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7099BDA2162086F6008C1203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7099BDA4162086F6008C1203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 		7099BD90162086F6008C1203 = {
 			isa = PBXGroup;
 			children = (
+				702B009C16208D1000394A25 /* www */,
 				7099BDBC162086F6008C1203 /* PhoneGapTemplateIOS */,
 				7099BDA1162086F6008C1203 /* Frameworks */,
 				7099BD9F162086F6008C1203 /* Products */,
@@ -328,6 +331,7 @@
 				7099BDE5162086F7008C1203 /* Capture.bundle in Resources */,
 				7099BDE7162086F7008C1203 /* Cordova.plist in Resources */,
 				7099BDF0162086F7008C1203 /* MainViewController.xib in Resources */,
+				702B009D16208D1000394A25 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +554,7 @@
 				7099BDF8162086F7008C1203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
